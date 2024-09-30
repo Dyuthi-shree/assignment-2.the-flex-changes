@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',serif;
+    background-color: hsl(53, 83%, 71%);
+    line-height: 1.6;
+    font-size:20px;
+    min-height:5ovh;
+    border: 8px solid black;
+    
+}
+
+.container {
+    
+    width: 80%;
+    margin: 3px auto;
+    padding: 30px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-bar li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    color: #f8f4f4;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+section {
+    margin: 50px 0;
+}
+
+.about {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .content {
+    flex: 1;
+}
+
+.about .image-container {
+    flex: 1;
+}
+
+.about .image-container img {
+    width: 200%;
+    max-width: 500px;
+    border-radius: 40%;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills-content {
+    display: flex;
+
+    justify-content:space-around;
+    margin-top: 20px;
+}
+
+.skill-item {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.projects-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-item {
+    flex: 1;
+    
+    margin: 0 15px;
+    background-color: #f6f2f5;
+    padding: 20px;
+    border: 1px solid #ede2ec;
+    border-radius: 5px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.contact ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
